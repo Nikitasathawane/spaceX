@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("images/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 10px 0 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#main-logo {
+    margin-top: 30px;
+    width: 400px;
+    transition: transform 0.3s ease;
+}
+
+#main-logo:hover {
+    transform: scale(1.1);
+}
+
+#title {
+    margin-top: 450px;
+    text-shadow: 0px 0px 4px black;
+    font-size: 36px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: #09498d;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #07366f;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #hero {
+        padding-top: 60px;
+    }
+
+    #main-logo {
+        width: 300px;
+    }
+
+    #title {
+        margin-top: 300px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    #main-logo {
+        width: 200px;
+    }
+
+    #title {
+        margin-top: 200px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
